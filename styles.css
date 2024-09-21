@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.triangle-up {
+	  position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid yellow; /* The colored part that forms the triangle */
+    }
+.triangle-down {
+	position: relative;
+	margin-top: 32px;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid yellow; /* The colored part that forms the triangle */
+	  transform: rotate(180deg)
+    }
